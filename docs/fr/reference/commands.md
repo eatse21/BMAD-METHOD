@@ -54,12 +54,12 @@ Chaque skill est un répertoire contenant un fichier `SKILL.md`. Par exemple, un
 │   └── SKILL.md
 ├── bmad-create-prd/
 │   └── SKILL.md
-├── bmad-analyst/
+├── bmad-agent-analyst/
 │   └── SKILL.md
 └── ...
 ```
 
-Le nom du répertoire détermine le nom du skill dans votre IDE. Par exemple, le répertoire `bmad-analyst/` enregistre le skill `bmad-analyst`.
+Le nom du répertoire détermine le nom du skill dans votre IDE. Par exemple, le répertoire `bmad-agent-analyst/` enregistre le skill `bmad-agent-analyst`.
 
 ## Comment découvrir vos skills
 
@@ -79,10 +79,10 @@ Les skills d'agent chargent une persona[^2] IA spécialisée avec un rôle défi
 
 | Exemple de skill | Agent | Rôle |
 | --- | --- | --- |
-| `bmad-analyst` | Mary (Analyste) | Brainstorming de projets, recherche, création de briefs |
-| `bmad-architect` | Winston (Architecte) | Conçoit l'architecture système |
-| `bmad-ux-designer` | Sally (Designer UX) | Crée les designs UX |
-| `bmad-tech-writer` | Paige (Rédacteur Technique) | Documente les projets, rédige des guides, génère des diagrammes |
+| `bmad-agent-analyst` | Mary (Analyste) | Brainstorming de projets, recherche, création de briefs |
+| `bmad-agent-architect` | Winston (Architecte) | Conçoit l'architecture système |
+| `bmad-agent-ux-designer` | Sally (Designer UX) | Crée les designs UX |
+| `bmad-agent-tech-writer` | Paige (Rédacteur Technique) | Documente les projets, rédige des guides, génère des diagrammes |
 
 Consultez [Agents](./agents.md) pour la liste complète des agents par défaut et leurs déclencheurs.
 
@@ -123,7 +123,7 @@ Le module principal inclut 11 outils intégrés — revues, compression, brainst
 
 ## Convention de nommage
 
-Tous les skills utilisent le préfixe `bmad-` suivi d'un nom descriptif (ex. `bmad-analyst`, `bmad-create-prd`, `bmad-help`). Consultez [Modules](./modules.md) pour les modules disponibles.
+Tous les skills utilisent le préfixe `bmad-` suivi d'un nom descriptif (ex. `bmad-agent-analyst`, `bmad-create-prd`, `bmad-help`). Consultez [Modules](./modules.md) pour les modules disponibles.
 
 ## Dépannage
 
